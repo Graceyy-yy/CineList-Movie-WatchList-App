@@ -1,12 +1,10 @@
 import React from 'react'
-import { Nav } from './components/Nav'
-import { Footer } from './components/Footer'
+import { MovieSearch } from './components/MovieSearch'
 
 export const App = () => {
   return (
-    <div className='body'>
-      <Nav />
-      <Footer/>
+    <div className='bg-red-500'>
+      <MovieSearch />
     </div>
   )
 }

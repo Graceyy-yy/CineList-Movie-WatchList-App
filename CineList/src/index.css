@@ -6,7 +6,7 @@
  /* body{
   @apply bg-gray-950
 
-}  */
+}   */
 
 navbody {
   @apply bg-gray-400
@@ -16,7 +16,23 @@ h1 {
     @apply text-6xl font-bold text-green-700 font-sans 
     }
 
+    h2{
+      @apply text-green-700 font-bold text-3xl flex 
+    }
+
+input {
+@apply border border-spacing-8 border-solid border-opacity-85 border-green-700 placeholder:text-center placeholder:text-xl
+}
+
 btn {
   @apply cursor-pointer hover:bg-green-600 focus-visible:ring-green-700
+}
+
+icon {
+  @apply text-green-500 text-2xl
+}
+
+foot {
+  @apply text-white text-3xl font-serif hover:bg-green-600
 }
 }
