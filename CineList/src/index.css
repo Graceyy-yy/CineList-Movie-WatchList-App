@@ -3,36 +3,38 @@
 @tailwind utilities;
 
 @layer components {
- /* body{
-  @apply bg-gray-950
-
-}   */
-
-navbody {
-  @apply bg-gray-400
-}
-
 h1 {
-    @apply text-6xl font-bold text-green-700 font-sans 
-    }
-
-    h2{
-      @apply text-green-700 font-bold text-3xl flex 
-    }
-
-input {
-@apply border border-spacing-8 border-solid border-opacity-85 border-green-700 placeholder:text-center placeholder:text-xl
+@apply text-6xl font-bold text-green-700 font-sans
 }
 
-btn {
-  @apply cursor-pointer hover:bg-green-600 focus-visible:ring-green-700
+h2{
+@apply text-green-700 font-bold text-3xl p-20
+} 
+
+.input {
+@apply border border-spacing-8 border-solid border-opacity-100 border-green-700 
+placeholder:text-center placeholder:text-lg placeholder:text-green-300/40 placeholder:font-serif
+px-48 rounded-xl py-1 bg-green-300/20 hover:bg-green-200/20 text-white text-center
 }
 
-icon {
-  @apply text-green-500 text-2xl
+.btn {
+  @apply cursor-pointer hover:bg-green-700/20 
+  focus-visible:ring-green-900 rounded mx-4 my-0
 }
 
-foot {
-  @apply text-white text-3xl font-serif hover:bg-green-600
+.search {
+@apply py-4 px-6 
+}
+
+.icon {
+  @apply text-green-700 text-4xl text-left
+}
+
+.foot {
+  @apply text-white text-3xl font-serif
+}
+
+.paragraph {
+  @apply text-white text-xl font-mono
 }
 }
