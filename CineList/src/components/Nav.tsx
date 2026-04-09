@@ -6,13 +6,14 @@ import Logo from "../assets/icon.svg"
 export const Nav = () => {
   return (
     <div className = 'flex items-center justify-between'>
+        
+        <div className= 'flex'>
+            <img src = {Logo} 
+              className='pic'
+            />
 
-        <img src = {Logo} 
-         className='w-24'
-        />
-
-        <h1>CineList</h1>
- 
+            <h1>CineList</h1>
+        </div>
       
         <button className = 'btn'>
           <TiThMenuOutline className = 'icon'/>

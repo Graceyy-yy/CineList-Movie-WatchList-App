@@ -2,25 +2,26 @@ import React from 'react'
 
 export const Footer = () => {
   return (
-    <div>
-      <p className = 'paragraph'>
-        Cinelist.co.za
-      </p>
-
+    <footer className ='items-bottom text-center my-28'>
+    
       <p className ='paragraph'>
         Prod by:
       </p>
-      
+
       <a href='https://github.com/Graceyy-yy'
-      className = 'foot'>
+      >
         Grace
       </a>
 
       <a href = 'https://github.com/SudoSfundo'
-      className ='foot'>
+      >
         Sfundo
       </a>
 
-    </div>
+      <p className = 'paragraph'>
+        www.cinelist.co.za
+      </p>
+
+    </footer>
   )
 }

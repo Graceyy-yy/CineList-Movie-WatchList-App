@@ -4,7 +4,7 @@ import React from 'react'
 
 export const MovieSearch = () => {
   return (
-    <div className = 'text-center'>
+    <div className = 'text-center items-center justify-between'>
      
       <h2>CineList, the World of movies</h2>
 
@@ -12,14 +12,17 @@ export const MovieSearch = () => {
         Search for movie below:
       </p>
 
-      <input className = 'input'
+    <div className='p-2'>
+       <input className = 'input'
       placeholder='Search for movie'>
 
       </input>
 
-      <button className='search'>
-        <BiSearchAlt2 className = 'text-white text-4xl'/>
+      <button>
+        <BiSearchAlt2 className = 'text-white/70 text-4xl -mx-10 -my-3 '/>
       </button>
+    </div>
+     
       
     
     </div>
