@@ -30,7 +30,7 @@ px-48 py-2 rounded-2xl bg-green-300/20 hover:bg-green-200/20 text-white text-cen
 }
 
 a {
-  @apply text-white text-xl px-12 font-serif hover:bg-green-700/10
+  @apply text-white text-xl px-12 font-serif hover:bg-green-700/10 
 }
 
 .paragraph {
