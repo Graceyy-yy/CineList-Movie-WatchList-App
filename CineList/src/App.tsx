@@ -3,9 +3,15 @@ import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
+//import { Movies } from './data/MoviesData'
+import { searchMovies } from './tmdb'
 
 function App() {
   const [count, setCount] = useState(0)
+
+searchMovies("Fight");
+ // console.log(Movies)
+// console.log(import.meta.env)
 
   return (
     <>
