@@ -1,7 +1,7 @@
 
 export const Footer = () => {
   return (
-    <div className ='my-64 items-bottom text-center hover:bg-white '>
+    <div className ='justify-between pt-24 items-bottom text-center '>
     
       <p className ='paragraph'>
         Prod by:

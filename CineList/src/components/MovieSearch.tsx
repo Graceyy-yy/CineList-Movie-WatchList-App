@@ -6,7 +6,7 @@ import { BiSearchAlt2 } from "react-icons/bi";
 
 export const MovieSearch = () => {
   return (
-    <div className = 'text-center items-center justify-between hover:bg-white'>
+    <div className = 'py-20 text-center items-center justify-between'>
      
       <h2 >CineList, the World of movies</h2>
 
