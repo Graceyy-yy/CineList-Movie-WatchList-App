@@ -1,6 +1,6 @@
 import { TiThMenuOutline } from "react-icons/ti"; 
-import React from 'react'
 import Logo from "../assets/icon.svg"
+
 
 
 export const Nav = () => {

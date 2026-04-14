@@ -1,7 +1,7 @@
 
 export const Footer = () => {
   return (
-    <footer className ='items-bottom text-center my-28'>
+    <div className ='my-64 items-bottom text-center hover:bg-white '>
     
       <p className ='paragraph'>
         Prod by:
@@ -21,6 +21,6 @@ export const Footer = () => {
         www.cinelist.co.za
       </p>
 
-    </footer>
+    </div>
   )
 }
