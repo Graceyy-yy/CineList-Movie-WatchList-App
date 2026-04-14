@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Root from './root.tsx'
-import App from './App.tsx'
+import { App } from './App.tsx'
 
 
 
