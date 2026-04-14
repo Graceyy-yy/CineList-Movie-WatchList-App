@@ -3,15 +3,17 @@
 @tailwind utilities;
 
 @layer components {
+
 h1 {
 @apply text-7xl font-bold text-green-700 font-sans -mx-10
 }
 
 h2{
-@apply text-green-700 font-bold text-3xl p-20
+@apply text-green-700 font-bold text-3xl p-20 
 } 
 
-.input {
+
+input {
 @apply border border-spacing-8 border-solid border-opacity-100 border-green-700 
 placeholder:text-center placeholder:text-lg placeholder:text-green-300/40 placeholder:font-sans
 px-48 py-2 rounded-2xl bg-green-300/20 hover:bg-green-200/20 text-white text-center

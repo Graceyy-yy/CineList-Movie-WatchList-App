@@ -6,14 +6,15 @@ export const MovieSearch = () => {
   return (
     <div className = 'text-center items-center justify-between'>
      
-      <h2>CineList, the World of movies</h2>
+      <h2 >CineList, the World of movies</h2>
 
       <p className ='paragraph'>
         Search for movie below:
       </p>
 
     <div className='p-2'>
-       <input className = 'input'
+       <input
+       
       placeholder='Search for movie'>
 
       </input>
